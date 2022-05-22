@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn import preprocessing
-from sklearn.svm import LinearSVC
+from sklearn.svm import SVC
 from sklearn.multiclass import OneVsOneClassifier
 from sklearn.model_selection import train_test_split, cross_val_score
 
@@ -49,7 +49,7 @@ for i, item in enumerate(X[0]):
 X = X_encoded[:, :-1].astype(int)
 y = X_encoded[:, -1].astype(int)
 
-classifier = OneVsOneClassifier(LinearSVC(random_state=0))
+classifier = OneVsOneClassifier(SVC(kernel='rbf', max_iter=5000))
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=5)
 classifier.fit(X_train, y_train)
