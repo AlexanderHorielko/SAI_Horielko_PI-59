@@ -1,0 +1,10 @@
+﻿lab1/share
+lab1/.idea
+lab1/__pycache__
+lab1/Lib
+lab1/Scripts
+*.tmp
+*.cfg
+lab1/data_metrics.csv
+lab1/data_multivar_nb.txt
+lab1/utilities.py
