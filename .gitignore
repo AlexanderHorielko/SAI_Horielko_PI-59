@@ -13,3 +13,11 @@ lab2/Lib
 lab2/Scripts
 lab2/share
 lab2/~$lab2.docx
+lab3/.idea
+lab3/Lib
+lab3/Scripts
+lab3/share
+lab3/data_multivar_regr.txt
+lab3/data_regr_5.txt
+lab3/data_singlevar_regr.txt
+lab3/model.pkl
