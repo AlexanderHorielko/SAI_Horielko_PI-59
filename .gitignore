@@ -21,3 +21,9 @@ lab3/data_multivar_regr.txt
 lab3/data_regr_5.txt
 lab3/data_singlevar_regr.txt
 lab3/model.pkl
+lab4/.idea
+lab4/Lib
+lab4/Scripts
+lab4/share
+lab4/company_symbol_mapping.json
+lab4/data_clustering.txt
