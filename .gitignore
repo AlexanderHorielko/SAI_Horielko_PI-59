@@ -27,3 +27,13 @@ lab4/Scripts
 lab4/share
 lab4/company_symbol_mapping.json
 lab4/data_clustering.txt
+lab5/share
+lab5/Scripts
+lab5/Lib
+lab5/__pycache__
+lab5/.idea
+lab5/data_imbalance.txt
+lab5/data_random_forests.txt
+lab5/traffic_data.txt
+lab5/utilities.py
+lab5/random_forests.py
